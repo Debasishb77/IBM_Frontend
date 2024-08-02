@@ -20,6 +20,7 @@
   justify-content: center;
 }
 .about-text-container{
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,8 +38,13 @@
 }
 .about-text{
   text-align: justify;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   font-size: 1.4rem;
+}
+.about-text > span{
+  color:  #023460;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .socials{
@@ -53,8 +59,7 @@
   display: flex;
   justify-content: space-evenly;
 }
-
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   .about-text{
     font-size: 1.2rem;
   }
